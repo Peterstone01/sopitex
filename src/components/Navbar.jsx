@@ -8,7 +8,7 @@ import { FaBars } from "react-icons/fa";
 const Navbar = () => {
   const [show, setShow] = useState(false);
   return (
-    <div className="bg-gray-100  w-full py-3 z-10 px-14 flex items-center justify-between ">
+    <div className="bg-gray-100 fixed w-full py-3 z-40 px-14 flex items-center justify-between ">
       <Link className="text-green-500">
         <img src={sopitex1} alt="logo" className="w-32 object-contain" />
       </Link>
@@ -34,7 +34,7 @@ const Navbar = () => {
       </div>
 
       {/* //////////////////mobile navigation starts here */}
-      {show && (
+      {/* {show && (
         <div className="bg-white rounded-md absolute right-0 top-10 px-2 py-3 mb-3 shadow-gray-300 w-[200px] ">
           <div className="   items-center justify-center gap-5 text-gray-700     ">
             {navigations.map((item, i) => (
@@ -53,7 +53,7 @@ const Navbar = () => {
             ))}
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 };

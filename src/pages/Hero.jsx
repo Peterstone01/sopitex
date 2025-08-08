@@ -20,11 +20,11 @@ const Hero = () => {
   return (
     <div id="hero" className=" mx-auto bg-gray-200  relative w-full">
       {/* ///////////////////////////////////// */}
-      <div className="h-[90vh] ">
+      <div className="h-[80vh] md:h-[90vh] ">
         <img
           src={room3}
           alt="hero image"
-          className="h-[90vh] w-full object-cover"
+          className="h-[80vh] md:h-[90vh] w-full object-cover"
         />
       </div>
       <div className="absolute opacity-80  inset-0 z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#032922_100%)]"></div>
@@ -42,19 +42,19 @@ const Hero = () => {
         </div>
       </div>
       {/* ///////////////////////features cards */}
-      <div className="absolute z-40 top-11/12 mt-[5%] left-1/2 w-full md:w-[70%] -translate-x-1/2 -translate-y-1/2 ">
-        <div className="    grid grid-cols-12 gap-4 max-w-4xl mx-auto z-30">
+      <div className="absolute z-40 top-11/12 px-4 mt-14 md:mt-[5%] left-1/2 w-full md:w-[70%] -translate-x-1/2 -translate-y-1/2 ">
+        <div className="    grid grid-cols-12 gap-2 md:gap-4 w-full  md:max-w-4xl mx-auto z-30">
           {features.map((item, i) => (
             <div
               key={i}
-              className="bg-white shadow-md rounded-md mb-3 shadow-gray-300 p-4 col-span-3"
+              className="bg-white  rounded-md mb-3 shadow-gray-300  col-span-3 p-2"
             >
               <img
                 src={item.image}
                 alt={item.title}
-                className="object-cover h-[150px]"
+                className="object-cover md:h-[150px]"
               />
-              <h3 className="font-bold my-3">{item.title}</h3>
+              <h3 className="font-bold my-3 hidden md:block">{item.title}</h3>
             </div>
           ))}
         </div>
