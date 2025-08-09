@@ -27,12 +27,13 @@ const Hero = () => {
       </div>
       <div className="absolute opacity-80  inset-0 z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#032922_100%)]"></div>
       {/* ///////////////////////////////////////////// */}
-      <div className="absolute top-1/2 left-1/2 w-full md:w-[70%] -translate-x-1/2 -translate-y-1/2 z-20">
-        <h1 className="text-3xl md:text-5xl text-center  text-primary font-bold  z-20 ">
-          SopiTex Homez, <span className=""> Apartment and Luxery</span>
+      <div className="absolute top-3/4 left-1/2 w-full md:w-[70%] -translate-x-1/2 -translate-y-1/2 z-20 px-2">
+        <h1 className="text-3xl md:text-5xl   text-primary font-bold  z-20 ">
+          SopiTex Homez,
+          <br /> <span className=""> Apartment and Luxery</span>
         </h1>
         <div>
-          <p className="  text-center text-white my-2 max-w-4xl leading-5">
+          <p className="   text-white my-2  leading-5">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
             veritatis officiis nobis accusamus ratione quae, dolorem non illo
           </p>
