@@ -25,10 +25,11 @@ const CardCarousel = () => {
     });
   };
   return (
-    <div className="mb-16">
+    <div className="relative mb-16 bg-gray-200 py-10 my-10">
       <h1 className="font-bold mt-2 text-center text-gray-600 text-3xl ">
         Features
       </h1>
+
       <div className="flex items-center flex-col justify-center mt-[15%] mb-[10%]">
         {images.map((image, index) => (
           <motion.img
