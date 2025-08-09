@@ -1,12 +1,12 @@
 import sopitex1 from "../assets/sopitex1.png";
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import { navigations } from "../constants/navigations";
 // import { Link, NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
   return (
     <div className="bg-gray-100 fixed w-full py-3 z-40 px-14 flex items-center justify-between ">
       <Link className="text-green-500">
