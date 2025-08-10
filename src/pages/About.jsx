@@ -1,14 +1,21 @@
 import React from "react";
 import room1 from ".././assets/room1.jpg";
 import Card from "../components/Card";
+// eslint-disable-next-line no-unused-vars
+import { motion } from "motion/react";
 const About = () => {
   return (
     <div
       id="about"
-      className="max-w-5xl mx-auto relative mb-16 bg-gray-200   py-10 my-10"
+      className="max-w-5xl mx-auto relative mb-16 bg-gray-200   py-10  mt-20"
     >
       <h1 className="text-center font-bold text-slate-900 text-4xl">About</h1>
-      <div className="block md:grid grid-cols-12 gap-4 space-y-28 p-10">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.6, y: -2 }}
+        whileInView={{ scale: 1, opacity: 1, y: 1 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
+        className="block md:grid grid-cols-12 gap-4 space-y-28 p-10"
+      >
         <div className="col-span-6 relative">
           <img src={room1} alt="room image" />
           <div className="bg-slate-900 py-2 px-4 w-[90%] absolute top-5/6 left-1/12 rounded ">
@@ -51,7 +58,7 @@ const About = () => {
             </p>
           </Card>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

@@ -22,7 +22,7 @@ export const navigations = [
   },
   {
     name: "upcomming",
-    href: "projects",
+    href: "choose",
     Icon: GoProjectSymlink,
   },
   {

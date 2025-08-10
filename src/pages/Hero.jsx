@@ -11,13 +11,13 @@ import Slider from "./Slider";
 // import { features } from "../constants/features";
 const Hero = () => {
   return (
-    <div id="hero" className=" mx-auto bg-gray-200  relative w-full">
+    <div id="hero" className=" mx-auto bg-gray-200  relative w-full ">
       {/* ///////////////////////////////////// HERO IMAGE */}
-      <div className="h-[80vh] md:h-[90vh] ">
+      <div className="h-[80vh] lg:h-[100vh] md:h-[90vh] ">
         <img
           src={room1}
           alt="hero image"
-          className="h-[80vh] md:h-[90vh] w-full object-cover"
+          className="h-[80vh] md:h-[90vh] lg:h-[100vh] w-full object-cover"
         />
       </div>
       <div className="w-full md:w-[80%] mt-36  lg:mt-20 lg:w-[70%] h-[220px] lg:py-16 py-10  bg-slate-950 absolute z-20  top-2/4  -translate-y-1/2"></div>
