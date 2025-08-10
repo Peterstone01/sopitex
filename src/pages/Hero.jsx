@@ -1,13 +1,8 @@
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
-// import room1 from "../assets/room1.jpg";
-// import room2 from "../assets/room2.jpg";
-import room3 from "../assets/room3.jpg";
-// import room4 from "../assets/room4.jpg";
-// import room5 from "../assets/room5.jpg";
-// import room6 from "../assets/room6.jpg";
-// import room7 from "../assets/room7.jpg";
-// import room8 from "../assets/room8.jpg";
+import room1 from "../assets/room1.jpg";
+import room7 from "../assets/room7.jpg";
+
 import {
   IoChevronBackCircleOutline,
   IoChevronForwardCircleOutline,
@@ -20,20 +15,20 @@ const Hero = () => {
       {/* ///////////////////////////////////// HERO IMAGE */}
       <div className="h-[80vh] md:h-[90vh] ">
         <img
-          src={room3}
+          src={room1}
           alt="hero image"
           className="h-[80vh] md:h-[90vh] w-full object-cover"
         />
       </div>
-      <div className="absolute opacity-80  inset-0 z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#032922_100%)]"></div>
+      <div className="w-full md:w-[80%] mt-36  lg:mt-20 lg:w-[70%] h-[220px] lg:py-16 py-10  bg-slate-950 absolute z-20  top-2/4  -translate-y-1/2"></div>
       {/* ///////////////////////////////////////////// */}
-      <div className="absolute top-3/4 left-1/2 w-full md:w-[70%] -translate-x-1/2 -translate-y-1/2 z-20 px-2">
-        <h1 className="text-3xl md:text-5xl   text-primary font-bold  z-20 ">
+      <div className="absolute  top-2/4 mt-36 lg:mt-20 w-full -translate-y-1/2 z-20 px-5 py-10">
+        <h1 className="text-3xl md:text-5xl   text-primary font-bold  z-20  pt-14">
           SopiTex Homez,
           <br /> <span className=""> Apartment and Luxery</span>
         </h1>
         <div>
-          <p className="   text-white my-2  leading-5">
+          <p className="   text-white my-2  leading-5 md:w-[80%] pb-16 md:pb-5  ">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
             veritatis officiis nobis accusamus ratione quae, dolorem non illo
           </p>
