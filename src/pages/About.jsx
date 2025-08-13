@@ -41,20 +41,26 @@ const About = () => {
         </div>
         <div className="col-span-6">
           <Card padding="true">
-            <h1 className="font-bold mt-5 mb-2">Welcome to Luxury</h1>
-            <h1 className="font-bold text-4xl text-primary ">SOPITEX HOMEZ</h1>
-            <div className="w-32 h-1 bg-slate-900 mb-5 mt-2"></div>
+            <h1 className="font-bold mt-5 mb-2 text-primary">Who we are</h1>
+            {/* <h1 className="font-bold text-4xl text-primary ">SOPITEX HOMEZ</h1> */}
+            {/* <div className="w-20 h-1 bg-slate-900 mb-5 mt-2"></div> */}
             <p className="mb-3 text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eius
-              nihil aliquam in, harum eaque sed! Laudantium voluptatem modi
-              aliquid eos similique quo accusamus, reprehenderit atque nihil,
-              quibusdam qui perspiciatis.
+              Sopitex Nigeria Ltd is a diversified entertainment and hospitality
+              company committed to delivering unique and memorable experiences.
+              We bring together physical and digital platforms to cater to a
+              wide range of audiences — from families seeking wholesome fun to
+              adults looking for premium, exclusive entertainment.
             </p>
+            <h1 className="font-bold text-primary">Our Mission </h1>
             <p className="text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque facere asperiores beatae rem, natus cumque quidem
-              dolorem maxime ut. Totam? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Optio, ab.
+              To create immersive leisure and hospitality solutions that connect
+              people, inspire joy, and celebrate diversity.
+            </p>
+            <h1 className="font-bold mt-3 text-primary">Our Vision </h1>
+            <p className="text-sm">
+              To become Africa’s leading entertainment and hospitality brand,
+              recognized for innovation, inclusivity, and exceptional service
+              delivery.
             </p>
           </Card>
         </div>

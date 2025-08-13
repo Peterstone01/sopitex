@@ -1,5 +1,5 @@
 import sopitex1 from "../assets/sopitex1.png";
-// import React, { useState } from "react";
+
 import { navigations } from "../constants/navigations";
 // import { Link, NavLink } from "react-router-dom";
 import { Link } from "react-scroll";

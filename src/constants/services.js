@@ -10,9 +10,10 @@ import services4 from "../assets/services4.jpg";
 export const services = [
   {
     image: services1,
-    title: "Gaming",
+    title: " Entertainment Services ",
+    // subtitle:
     content:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsam Lorem ipsum dolor sit ",
+      " State-of-the-art venues offering activities such as roller skating, arcade games, and leisure attractions",
   },
   {
     image: services2,
