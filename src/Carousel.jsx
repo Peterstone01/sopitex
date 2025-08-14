@@ -4,16 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import room1 from "./assets/room1.jpg";
-import room2 from "./assets/room2.jpg";
-import room3 from "./assets/room3.jpg";
-import room4 from "./assets/room4.jpg";
-import room5 from "./assets/room5.jpg";
-import room6 from "./assets/room6.jpg";
 import room7 from "./assets/room7.jpg";
-import room8 from "./assets/room8.jpg";
 import d1 from "./assets/d1.jpg";
 import d2 from "./assets/d2.jpg";
-import d3 from "./assets/d3.jpg";
 import d4 from "./assets/d4.jpg";
 import d5 from "./assets/d5.jpg";
 
@@ -49,7 +42,7 @@ const Carousel = () => {
     infinite: true,
     speed: 1000,
     slidesToShow: 1,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 10000,
     autoplay: true,
     fade: true,
     slidesToScroll: 1,
@@ -64,19 +57,19 @@ const Carousel = () => {
     <div className="slider-container scrollbar-hide  mx-auto relative">
       <Slider {...settings} className="relative">
         {slides.map((item, i) => (
-          <div key={i} className="h-[80vh]  w-full ">
+          <div key={i} className="h-[50vh] md:h-[60vh] lg:h-[80vh]  w-full ">
             <img
               src={item}
               alt="imaes"
-              className="h-[80vh] w-full object-cover"
+              className="h-[50vh] md:h-[60vh] lg:h-[80vh] w-full object-cover"
             />
           </div>
         ))}
-
-        {/* ///////////////overlay */}
       </Slider>
-      <div className="w-full md:w-[80%]   mt-36  lg:mt-20 lg:w-[80%] h-[300px] lg:h-[220px] lg:py-16 py-10  bg-slate-950 absolute z-20  top-2/4  -translate-y-1/2"></div>{" "}
-      <div className="absolute  top-2/4 mt-36 lg:mt-20 w-full -translate-y-1/2 z-20 px-5 py-10">
+      {/* ///////////////overlay */}
+      {/* ///////////////////// for mid size screen and above */}
+      <div className=" hidden md:block w-full md:w-[80%]   mt-36  lg:mt-20 lg:w-[80%] h-[300px] lg:h-[220px] lg:py-16 py-10  bg-slate-950 absolute z-20  top-2/4  -translate-y-1/2"></div>{" "}
+      <div className="hidden md:block absolute  top-2/4 mt-36 lg:mt-20 w-full -translate-y-1/2 z-20 px-5 py-10">
         <h1 className="text-2xl md:text-5xl   text-primary font-bold  z-20  pt-14 mb-5">
           Redefining Entertainment &
           <br /> <span className=""> Hospitality in Nigeria </span>
@@ -97,6 +90,21 @@ const Carousel = () => {
             Discover Our Platforms
           </button>
         </div> */}
+      </div>
+      {/* ///////////////////// for small screen (mobile) */}
+      {/* //////////overlay for small screen */}
+      <div className="absolute w-full h-full top-0 left-0 bg-slate-900 opacity-70 "></div>
+      {/* /////contents for small screen hero */}
+      <div className="absolute inset-0 flex flex-col items-center justify-center  ">
+        <h1 className="p-44 text-3xl   text-primary font-bold  z-20   ">
+          Redefining Entertainment &
+          <span className=""> Hospitality in Nigeria </span>
+        </h1>
+        <div>
+          <p className="   text-white my-2   text-sm ">
+            Where Family Fun Meets Nightlife, Tech & Premium Stays
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import React from "react";
 const Entertainment = () => {
   return (
     <div className="">
-      <div className="px-10">
+      <div className="px-2">
         <h1 className="font-bold text-xl my-5"> Entertainment Services </h1>
         <div className="block md:grid grid-cols-12 gap-4">
           <div className="col-span-6 bg-white shadow-md rounded-md mb-3 shadow-gray-300 p-4">

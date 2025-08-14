@@ -9,6 +9,7 @@ import ChooseUs from "./pages/ChooseUs";
 import Home from "./pages/Home";
 import Nav from "./components/Nav";
 import ContactUs from "./pages/ContactUs";
+import Footer from "./pages/Footer";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <ChooseUs />
       {/* <CardCarousel /> */}
       <ContactUs />
+      <Footer />
     </div>
   );
 };
