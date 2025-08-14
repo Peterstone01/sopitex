@@ -11,12 +11,12 @@ export const navigations = [
     Icon: IoHomeOutline,
   },
   {
-    name: "upcomming",
+    name: "About",
     href: "about",
     Icon: FaUserTie,
   },
   {
-    name: "upcomming",
+    name: "Services",
     href: "services",
     Icon: GrServices,
   },
@@ -26,7 +26,7 @@ export const navigations = [
     Icon: GoProjectSymlink,
   },
   {
-    name: "upcomming",
+    name: "Contacts",
     href: "contact",
     Icon: MdPhoneInTalk,
   },

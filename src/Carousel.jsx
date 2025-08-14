@@ -83,10 +83,7 @@ const Carousel = () => {
         </h1>
         <div>
           <p className="   text-white my-2  leading-5 md:w-[80%] pb-16 md:pb-5 text-sm ">
-            From immersive family fun to premium nightlife, cutting-edge digital
-            entertainment, and luxury stays — Sopitex Nigeria Ltd creates
-            unforgettable experiences for diverse audiences across Nigeria and
-            beyond.
+            Where Family Fun Meets Nightlife, Tech & Premium Stays
           </p>
         </div>
         {/* <div className="space-x-2  flex flex-wrap ">

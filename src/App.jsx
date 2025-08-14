@@ -8,19 +8,20 @@ import Services from "./pages/Services";
 import ChooseUs from "./pages/ChooseUs";
 import Home from "./pages/Home";
 import Nav from "./components/Nav";
+import ContactUs from "./pages/ContactUs";
 
 const App = () => {
   return (
     <div>
-      {/* <Navbar /> */}
       <Nav />
-      {/* <Hero /> */}
+
       <Home />
       <About />
-      <Offer />
+      {/* <Offer /> */}
       <Services />
       <ChooseUs />
       {/* <CardCarousel /> */}
+      <ContactUs />
     </div>
   );
 };
