@@ -3,7 +3,7 @@ import Carousel from "../Carousel";
 
 const Home = () => {
   return (
-    <div id="home" className="mt-[400px]">
+    <div id="home" className="mt-[80px]">
       <Carousel />
     </div>
   );
