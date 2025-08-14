@@ -68,8 +68,8 @@ const Carousel = () => {
       </Slider>
       {/* ///////////////overlay */}
       {/* ///////////////////// for mid size screen and above */}
-      <div className=" hidden md:block w-full md:w-[80%]   mt-36  lg:mt-20 lg:w-[80%] h-[300px] lg:h-[220px] lg:py-16 py-10  bg-slate-950 absolute z-20  top-2/4  -translate-y-1/2"></div>{" "}
-      <div className="hidden md:block absolute  top-2/4 mt-36 lg:mt-20 w-full -translate-y-1/2 z-20 px-5 py-10">
+      <div className="  w-full opacity-60  mt-36  lg:mt-20 h-[300px] lg:h-[220px] lg:py-16 py-10  bg-slate-900 absolute z-20  top-1/4  -translate-y-1/2"></div>{" "}
+      <div className="hidden  absolute  top-2/4 mt-36 lg:mt-20 w-full -translate-y-1/2 z-20 px-5 py-10">
         <h1 className="text-2xl md:text-5xl   text-primary font-bold  z-20  pt-14 mb-5">
           Redefining Entertainment &
           <br /> <span className=""> Hospitality in Nigeria </span>
@@ -93,15 +93,15 @@ const Carousel = () => {
       </div>
       {/* ///////////////////// for small screen (mobile) */}
       {/* //////////overlay for small screen */}
-      <div className="absolute w-full h-full top-0 left-0 bg-slate-900 opacity-70 "></div>
+      {/* <div className="absolute w-full h-full top-0 left-0 bg-slate-900 opacity-70 "></div> */}
       {/* /////contents for small screen hero */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center  ">
-        <h1 className="p-44 text-3xl   text-primary font-bold  z-20   ">
+      <div className="absolute mt-20 md:-mt-20 inset-0 flex flex-col items-center justify-center  ">
+        <h1 className=" text-4xl md:text-5xl text-center   text-primary font-bold  z-20   ">
           Redefining Entertainment &
           <span className=""> Hospitality in Nigeria </span>
         </h1>
         <div>
-          <p className="   text-white my-2   text-sm ">
+          <p className="   text-white my-2  font-bold text-center ">
             Where Family Fun Meets Nightlife, Tech & Premium Stays
           </p>
         </div>
