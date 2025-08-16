@@ -43,21 +43,29 @@ const ChooseUs = () => {
           <h1 className=" font-bold md:text-2xl text-center text-slate-900 my-10">
             Why Choose Us?
           </h1>
-          <h1 className="text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quia
-            distinctio repudiandae est dolore fugiat recusandae aliquam. Unde,
-            suscipit. Animi quibusdam impedit accusamus deleniti harum, cum
-            doloribus sapiente ratione officia quidem fugit cumque incidunt vel
-            debitis ipsam placeat dolorem quia voluptatum! Amet dignissimos
-            unde, ex distinctio nam explicabo praesentium culpa quidem odio,
-            perferendis saepe consequatur, esse ullam illo voluptates.
-            Necessitatibus repellat quo, minus enim error atque totam quasi
-            voluptatibus amet, autem dolorum earum ducimus quis tempora in esse
-            eaque excepturi dicta veniam facilis harum quisquam! Illum alias
-            repudiandae soluta debitis!
-          </h1>
+          <ul className="list-disc  pl-6 marker:text-green-500">
+            <li>
+              Diverse Offerings: From family attractions to adult-only
+              experiences, we cater to all demographics.
+            </li>
+            <li>
+              Innovation-Driven: Constantly evolving with technology and trends
+              to offer fresh, engaging experiences.
+            </li>
+            <li>
+              Customer-Centric Approach: Every service is designed with your
+              enjoyment and satisfaction at the core.
+            </li>
+          </ul>
         </div>
       </motion.div>
+      <div className="my-5">
+        <h4>
+          “Whether you’re planning your next family outing, a luxury getaway, or
+          exploring our cutting-edge entertainment platforms — Sopitex Nigeria
+          Ltd is your gateway to unforgettable moments.”{" "}
+        </h4>
+      </div>
     </div>
   );
 };
