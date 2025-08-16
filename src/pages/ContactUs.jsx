@@ -54,7 +54,7 @@ const ContactUs = () => {
                 <div className="">
                   <div className="mb-3">
                     <label htmlFor="name" className="font-bold">
-                      Please enter your name
+                      Name
                     </label>
                     <input
                       type="text"
@@ -65,7 +65,7 @@ const ContactUs = () => {
 
                   <div className="mb-3">
                     <label htmlFor="email" className="font-bold">
-                      Please enter your Email
+                      Email
                     </label>
                     <input
                       type="email"
@@ -75,7 +75,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <label htmlFor="phone" className="font-bold">
-                      Please enter your Phone number
+                      Phone number
                     </label>
                     <input
                       type="number"

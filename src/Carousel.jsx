@@ -117,7 +117,7 @@ const Carousel = () => {
       {/* <div className="absolute w-full h-full top-0 left-0 bg-slate-900 opacity-70 "></div> */}
       {/* /////contents for small screen hero */}
       <div className="absolute mt-20 md:-mt-20 inset-0 flex flex-col items-center justify-center  ">
-        <h1 className=" text-2xl md:text-5xl text-center   text-white font-bold  z-20   ">
+        <h1 className=" text-2xl md:text-5xl text-center   text-white font-bold  z-20  lg:w-[50%] md:mx-auto  ">
           Redefining Entertainment &
           <span className=""> Hospitality in Nigeria </span>
         </h1>
